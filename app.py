@@ -5,7 +5,7 @@ import pandas as pd
 
 #load the model
 
-with open('AI specialisation/first_iris_model.pkl', 'rb') as file:
+with open('first_iris_model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 import streamlit as st
